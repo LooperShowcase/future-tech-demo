@@ -1,7 +1,7 @@
 let open_ai_response;
 
 let conversation = [
-  { role: "system", content: "You are really kind." }
+  { role: "system", content: "I will always give you how happy i am out of 10 but you use this number only when it is relevant " }
 ];
 
 async function conversationUserAdd(question, sentiment) {
